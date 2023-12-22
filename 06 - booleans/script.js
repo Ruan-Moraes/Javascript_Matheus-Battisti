@@ -1,0 +1,8 @@
+console.log(true)
+console.log(false)
+console.log(10 > 2)
+console.log(5 > 200)
+console.log(type(true))
+console.log(type(false))
+console.log(type(10 > 2))
+console.log(type(5 > 200))

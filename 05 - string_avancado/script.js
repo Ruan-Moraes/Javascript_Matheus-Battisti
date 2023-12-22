@@ -1,0 +1,5 @@
+console.log("Primeira linha\nSegunda linha")
+console.log("Meu nome é 'Ruan'.")
+console.log('Meu nome é "Ruan".')
+console.log(`A multiplicaçaõ entre 5 e 3 é ${5 * 3}`)
+console.log("Meu " + "nome " + "é " + "'Ruan'" + ".")

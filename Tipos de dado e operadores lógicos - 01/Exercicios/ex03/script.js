@@ -1,0 +1,5 @@
+console.log(4 < 3)
+console.log(7 >= 7)
+console.log(5 == '5')
+console.log('Ruan' != 'João')
+console.log(7 === '7')

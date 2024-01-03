@@ -1,0 +1,41 @@
+function lembrarSoma(x) {
+    return function (y) {
+        return x + y
+    }
+}
+
+let soma = lembrarSoma(7)
+
+console.log(soma(5))
+
+let soma2 = lembrarSoma(7)
+
+console.log(soma2(7))
+
+function contador(i) {
+    let cont = i
+    let somarContador = function() {
+        console.log(cont)
+        cont++
+    }
+    return somarContador
+}
+
+let meuContador = contador(5)
+
+meuContador()
+meuContador()
+meuContador()
+meuContador()
+meuContador()
+meuContador()
+meuContador()
+meuContador()
+
+let meuContador2 = contador(1)
+
+meuContador2()
+meuContador2()
+meuContador2()
+meuContador2()
+meuContador2()

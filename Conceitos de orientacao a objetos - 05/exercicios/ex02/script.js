@@ -48,11 +48,6 @@ class Cart {
         this.calculateTotals()
     }
 
-    removeItemFromCart(itemId) {
-        this.items = this.items.filter((item) => item.id !== itemId)
-        this.calculateTotals()
-    }
-
     calculateTotals() {
         this.totalValue = this.items.reduce(
             (total, item) => total + item.valueTotalOfItems,
@@ -79,6 +74,11 @@ class Cart {
         } else {
             console.log('ERROR AO ADICIONAR PRODUTO!')
         }
+    }
+    
+    removeItemFromCart(itemId) {
+        this.items = this.items.filter((item) => item.id !== itemId)
+        this.calculateTotals()
     }
 }
 
